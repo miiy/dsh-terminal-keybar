@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Terminal key bar">
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="#17191d" />
+  <path d="M18 40l14 14-14 14" fill="none" stroke="#f2f4f8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="44" y="62" width="26" height="8" rx="4" fill="#f2f4f8" />
+  <g fill="#247bbf">
+    <rect x="82" y="18" width="30" height="14" rx="5" />
+    <rect x="82" y="38" width="30" height="14" rx="5" />
+    <rect x="82" y="58" width="30" height="14" rx="5" />
+    <rect x="82" y="78" width="30" height="14" rx="5" />
+    <rect x="82" y="98" width="30" height="14" rx="5" />
+  </g>
+</svg>

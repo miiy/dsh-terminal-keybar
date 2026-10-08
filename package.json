@@ -1,0 +1,60 @@
+{
+  "name": "dsh-terminal-keybar",
+  "version": "1.0.0",
+  "description": "Touch key bar for the DSH Web terminal: Esc, Tab, Enter, Ctrl-C and arrow keys floating on the right edge of a phone screen.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miiy/dsh-terminal-keybar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miiy/dsh-terminal-keybar/issues"
+  },
+  "homepage": "https://github.com/miiy/dsh-terminal-keybar#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "bundle",
+    "terminal",
+    "mobile",
+    "xterm"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "client.js",
+    "index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "MAINTENANCE.md"
+  ],
+  "icon": "./icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-sidebar-right",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-api-terminal-controller"
+      ]
+    }
+  }
+}
