@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Terminal Keybar",
-    "description": "Floats Esc, Tab, Enter, Ctrl-C and arrow keys on the right edge of the phone screen while a terminal is open."
+    "description": "On touch devices, supplies the keys a phone's soft keyboard lacks (Escape, Tab, Enter, Ctrl-C and the arrow keys) as a translucent on-screen column beside the active terminal."
   }
 }

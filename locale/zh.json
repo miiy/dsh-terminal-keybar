@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "终端按键条",
-    "description": "终端打开时，在手机屏幕右侧浮出一条按键列：Esc、Tab、回车、Ctrl-C 和方向键。"
+    "description": "在触屏设备上补齐手机软键盘缺少的按键（Esc、Tab、回车、Ctrl-C、方向键），以半透明按键列浮在活动终端旁。"
   }
 }
