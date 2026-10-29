@@ -1,6 +1,6 @@
 {
   "name": "dsh-terminal-keybar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "On touch devices, supplies the keys a phone's soft keyboard lacks (Escape, Tab, Enter, Ctrl-C and the arrow keys) as a translucent on-screen column beside the active terminal.",
   "type": "module",
   "license": "MIT",
