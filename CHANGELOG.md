@@ -2,6 +2,15 @@
 
 Versions follow [SemVer](https://semver.org/).
 
+## 1.0.3
+
+### Added
+- `screenshots.json` beside `package.json`, so a plugin listing shows the wide capture.
+- `icon-180.png`, the raster a listing uses next to the plugin name.
+
+### Changed
+- Version bump so plugin markets report this release instead of unreleased commits.
+
 ## 1.0.2
 
 ### Changed
