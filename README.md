@@ -14,6 +14,10 @@ straight into the terminal that is on screen.
 
 ![Key column](icon.svg)
 
+## Screenshots
+
+![The key column beside a terminal open on a phone](Screenshot-wide.png)
+
 ## Keys
 
 | Button | Sends | Typical use |
